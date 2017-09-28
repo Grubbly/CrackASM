@@ -1,0 +1,9 @@
+C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\bin\Debug\crackASMGUI.exe.config
+C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\bin\Debug\crackASMGUI.exe
+C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\bin\Debug\crackASMGUI.pdb
+C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\obj\Debug\crackASMGUI.csprojResolveAssemblyReference.cache
+C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\obj\Debug\crackASMGUI.crackASMGUI.resources
+C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\obj\Debug\crackASMGUI.Properties.Resources.resources
+C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\obj\Debug\crackASMGUI.csproj.GenerateResource.Cache
+C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\obj\Debug\crackASMGUI.exe
+C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\obj\Debug\crackASMGUI.pdb
