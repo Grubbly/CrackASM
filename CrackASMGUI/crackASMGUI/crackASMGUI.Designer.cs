@@ -70,6 +70,7 @@
             this.btnMultiplication.TabIndex = 2;
             this.btnMultiplication.Text = "Multiply";
             this.btnMultiplication.UseVisualStyleBackColor = true;
+            this.btnMultiplication.Click += new System.EventHandler(this.btnMultiplication_Click);
             // 
             // btnSubtraction
             // 
@@ -79,6 +80,7 @@
             this.btnSubtraction.TabIndex = 3;
             this.btnSubtraction.Text = "Subtract";
             this.btnSubtraction.UseVisualStyleBackColor = true;
+            this.btnSubtraction.Click += new System.EventHandler(this.btnSubtraction_Click);
             // 
             // btnDivision
             // 
@@ -88,6 +90,7 @@
             this.btnDivision.TabIndex = 4;
             this.btnDivision.Text = "Divide";
             this.btnDivision.UseVisualStyleBackColor = true;
+            this.btnDivision.Click += new System.EventHandler(this.btnDivision_Click);
             // 
             // txtA
             // 

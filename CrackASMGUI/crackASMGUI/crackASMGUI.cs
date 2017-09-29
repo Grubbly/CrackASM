@@ -64,6 +64,31 @@ namespace crackASMGUI
             
         }
 
+        private void btnSubtraction_Click(object sender, EventArgs e)
+        {
+            getInputs();
+            clearAllText();
 
+            txtDisplay.AppendText(Convert.ToString(crackASMBackend.Subtraction(inputA, inputB)));
+        }
+
+        private void btnMultiplication_Click(object sender, EventArgs e)
+        {
+            getInputs();
+            clearAllText();
+
+            txtDisplay.AppendText(Convert.ToString(crackASMBackend.Multiplication(inputA, inputB)));
+        }
+
+        private void btnDivision_Click(object sender, EventArgs e)
+        {
+            getInputs();
+            clearAllText();
+
+            if (inputB == 0)
+                txtDisplay.AppendText("UNDEFINED");            
+            else            
+                txtDisplay.AppendText(Convert.ToString(crackASMBackend.Division(inputA, inputB)));           
+        }
     }
 }
