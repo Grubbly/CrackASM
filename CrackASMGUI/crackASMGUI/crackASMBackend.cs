@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+	crackASMBackend.cs
+	Tristan Van Cise
+	CS 301 Assembly Language Programming
+	09/25/2017
+    Import from DLL
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,27 +17,23 @@ namespace crackASMGUI
 {
     public class crackASMBackend
     {
-        /// <summary>
+     
         /// The main entry point for the application.
-        /// </summary>
-        /// 
 
         //Import a function from specified DLL, C# treats this as a static, unmanaged code, entry point
         //unmanaged code is code that C# is not responsible for
         //c++ file exports the functions, here we import them to use in the GUI
 
-        const string absolutePath = @"C:\\Users\\Grubs\\Documents\\Visual Studio 2017\\Projects\\CrackASM\\Debug\\CrackASM.dll";
-
-        [System.Runtime.InteropServices.DllImport(absolutePath)]
+        [System.Runtime.InteropServices.DllImport("CrackASM.dll")]
         public static extern int Addition(int x, int y);
 
-        [System.Runtime.InteropServices.DllImport(absolutePath)]
+        [System.Runtime.InteropServices.DllImport("CrackASM.dll")]
         public static extern int Subtraction(int x, int y);
 
-        [System.Runtime.InteropServices.DllImport(absolutePath)]
+        [System.Runtime.InteropServices.DllImport("CrackASM.dll")]
         public static extern int Multiplication(int x, int y);
 
-        [System.Runtime.InteropServices.DllImport(absolutePath)]
+        [System.Runtime.InteropServices.DllImport("CrackASM.dll")]
         public static extern int Division(int x, int y);
 
 

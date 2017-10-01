@@ -46,14 +46,56 @@ int __stdcall Multiplication(int a, int b)
 int __stdcall Division(int a, int b)
 {
 	int quotient = 0;
-
-	/*__asm
+	bool flagA = false;
+	bool flagB = false;
+	
+	if (a < 0) 
 	{
-		mov eax, a
-		mov ecx, b
-		div eax, ecx
-		mov quotient, eax
-	}*/
+		flagA = true;
+		a *= -1;
+	}
+			
+	if (b < 0)
+	{
+		flagB = true;
+		b *= -1;
+	}
+	
+
+	__asm
+	{
+
+		mov eax, a;//N //A
+		mov ecx, b;//D //B
+		mov edx, 0;//Q
+		mov esi, a;//t //A
+
+		cmp b,0
+		je terminate
+
+
+	begin:
+		sub esi, ecx;//esi = N-D
+		;//esi is new value 
+
+
+		cmp esi, 0
+		jge setLeastBit
+			mov quotient, edx
+			jmp terminate
+
+	setLeastBit :
+		add edx, 1;//Q
+		mov eax, esi;//n=t
+		jmp begin	
+
+	terminate:
+	}
+
+	if ( (flagA || flagB ) && (flagA != flagB) )
+	{
+		quotient *= -1;
+	}
 
 	return quotient;
 }

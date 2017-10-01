@@ -16,5 +16,4 @@ extern "C" __declspec(dllexport) int __stdcall Subtraction(int a, int b);
 extern "C" __declspec(dllexport) int __stdcall Multiplication(int a, int b);
 extern "C" __declspec(dllexport) int __stdcall Division(int a, int b);
 
-
 #endif // !DLL_CRACKASM_H_INCLUDED

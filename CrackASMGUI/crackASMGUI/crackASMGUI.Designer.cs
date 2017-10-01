@@ -1,4 +1,12 @@
-﻿namespace crackASMGUI
+﻿/*
+	crackASMGUI.Designer.cs
+	Tristan Van Cise
+	CS 301 Assembly Language Programming
+	09/25/2017
+    GUI features (color, positioning, buttons, textboxes, etc..)
+*/
+
+namespace crackASMGUI
 {
     partial class crackASMGUI
     {

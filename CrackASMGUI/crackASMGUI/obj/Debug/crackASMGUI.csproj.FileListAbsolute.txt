@@ -7,3 +7,4 @@ C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\obj\Debug\crackASMGUI.Properti
 C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\obj\Debug\crackASMGUI.csproj.GenerateResource.Cache
 C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\obj\Debug\crackASMGUI.exe
 C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\obj\Debug\crackASMGUI.pdb
+C:\Users\Grubs\Desktop\C#\crackASMGUI\crackASMGUI\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
